@@ -148,3 +148,10 @@ code {
 .comer {
     width: 300px;
 }
+
+p.box {
+    width: fit-content;
+    border: 1px solid #242424;
+    border-radius: 8px;
+    padding: 8px;
+}

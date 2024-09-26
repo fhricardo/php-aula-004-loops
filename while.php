@@ -1,23 +1,18 @@
 <?php
 include 'includes/header.php';
-
-
-
 echo '<a href="index.php"><button>Voltar</button></a>';
 
-/*switch(valor){
-    caso "valor 1":
-        trecho de código a executar;
-        break;
-    caso "valor 2":
-        trecho de código a executar;
-        break;
-    default:
-        trecho de código para executar por padrão, caso os valores não sejam encontrados;
-        break;
-}*/
+/*
+Estrutura do loop WHILE
+
+while(condição){
+    trecho de código para executar;
+    atualizar a variável de controle;
+}
+*/
 
 echo '<div class="whilePizza">';
+
 $fatias = 8;
 
 echo '<div class="comer"><p>Tenho uma pizza inteira!</p>';
@@ -26,8 +21,8 @@ echo '<div class="pizza"><img src="assets/pizza-' . $fatias . '.png"></div>';
 echo '</div>';
 
 while ($fatias > 1) {
-    echo '<div class="comer"><p>Como uma fatia.</p>';
     $fatias -= 1;
+    echo '<div class="comer"><p>Como uma fatia.</p>';
     echo "<p>restam {$fatias} fatias</p>";
     echo '<div class="pizza"><img src="assets/pizza-' . $fatias . '.png"></div>';
     echo '</div>';
