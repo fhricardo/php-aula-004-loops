@@ -1,7 +1,7 @@
 # Entendendo Estruturas de Repetição FOR, WHILE e DO...WHILE em PHP
 
 ## Link para a aula em vídeo:
-[PHP com Banco de Dados - Aula 004 - Estruturas de Repetição](https://www.youtube.com/watch?v=K1rtnDWeihQ&sub_confirmation=1)
+[PHP com Banco de Dados - Aula 004 - Estruturas de Repetição](https://youtu.be/WDAeRi4oo_c)
 
 ## Atividades Propostas:
 
